@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration scan="true">
+
+    <include resource="loggers-patterns.xml"/>
+    <include resource="base-loggers.xml"/>
+
+
+    <!--<logger name="org.hibernate.SQL" level="DEBUG" />-->
+    <logger name="me.delev.javaskop17" level="DEBUG"/>
+
+    <include resource="console-appender.xml"/>
+
+    <root level="DEBUG">
+        <appender-ref ref="CONSOLE"/>
+    </root>
+
+</configuration>

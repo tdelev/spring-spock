@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: JavaSkop Demo App
+  # Profiles configuration
+  profiles: [dev]
+  # Hibernate JPA configuration
+  jpa:
+    hibernate:
+      ddl-auto: update
+    #show-sql: true
